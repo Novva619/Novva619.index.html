@@ -1,0 +1,14 @@
+// Open the lightbox
+function openLightbox() {
+    document.getElementById("lightbox").style.display = "block";
+}
+
+// Close the lightbox
+function closeLightbox() {
+    document.getElementById("lightbox").style.display = "none";
+}
+
+// Show the clicked image inside the lightbox
+function showImage(src) {
+    document.getElementById("lightboxImage").src = src;
+}
